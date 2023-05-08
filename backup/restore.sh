@@ -76,14 +76,14 @@ NameUser=$(curl -sS https://raw.githubusercontent.com/citralinggau/izinvps/main/
 cekdata=$(curl -sS https://raw.githubusercontent.com/FranataVPN/backup/main/$NameUser/$NameUser.zip | grep 404 | awk '{print $1}' | cut -d: -f1)
 
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC} ${COLBG1}             • RESTOR PANEL MENU •             ${NC} $COLOR1│$NC"
+echo -e "$COLOR1│${NC} ${COLBG1}             • RESTORE PANEL MENU •             ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 [[ "$cekdata" = "404" ]] && {
 red "│  [INFO] Data not found / you never backup"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}              • citralinggau •                $COLOR1│$NC"
+echo -e "$COLOR1│${NC}              • JarwoksStore •                $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -138,7 +138,7 @@ sleep 1
 rm -f /root/backup/backup.zip &> /dev/null
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}              • citralinggau •                $COLOR1│$NC"
+echo -e "$COLOR1│${NC}              • JarwoksStore •                $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
