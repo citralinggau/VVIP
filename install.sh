@@ -208,7 +208,7 @@ clear
 yellow "Add Domain for ssh/vmess/vless/trojan dll"
 yellow "Jika tidak mempunyai domain Hubungi @citralinggau"
 echo "-------------------------------------"
-echo "     Scipt citralinggau Tunneling "
+echo "     Script Jarwoks Tunneling "
 echo "-------------------------------------"
 read -rp "Input your domain : " -e pp
 echo "$pp" > /root/domain
@@ -363,7 +363,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script citralinggau Tunneling ]-==============="
+echo "===============-[ Script Jarwoks Tunneling ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
