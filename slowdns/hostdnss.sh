@@ -8,8 +8,8 @@ rm nsdomain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=rstore-vpn.cloud
-SUB_DOMAIN=vip-${sub}.rstore-vpn.cloud
-NS_DOMAIN=ns-${subsl}.rstore-vpn.cloud
+SUB_DOMAIN=vip-${sub}.mystoreevpn.xyz
+NS_DOMAIN=ns-${subsl}.mystoreevpn.xyz
 CF_ID=ridwanstoreaws@gmail.com
 CF_KEY=4ecfe9035f4e6e60829e519bd5ee17d66954f
 
