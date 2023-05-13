@@ -121,7 +121,7 @@ if [ "" = "$PKG_OK" ]; then
   echo -e "[ ${tyblue}NOTES${NC} ] After rebooting"
   sleep 1
   echo -e "[ ${tyblue}NOTES${NC} ] Then run this script again"
-  echo -e "[ ${tyblue}NOTES${NC} ] Notes, Script Mod By citralinggau"
+  echo -e "[ ${tyblue}NOTES${NC} ] Notes, Script Mod By JarwoksStore"
   echo -e "[ ${tyblue}NOTES${NC} ] Klik Enter untuk Melanjutkan..."
   read
 else
@@ -357,8 +357,8 @@ echo "   - Admin Control" | tee -a log-install.txt
 echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   >>> WhatsApp : +6283850135751 (Text Only)"  | tee -a log-install.txt
-echo "   >>> Telegram : t.me/citralinggau"  | tee -a log-install.txt
+echo "   >>> WhatsApp : +6285279323958 (Text Only)"  | tee -a log-install.txt
+echo "   >>> Telegram : t.me/mystorevpn"  | tee -a log-install.txt
 echo ""
 echo ""
 echo "------------------------------------------------------------"
