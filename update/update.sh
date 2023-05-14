@@ -16,7 +16,7 @@ wget -q -O /usr/bin/menu-theme "https://raw.githubusercontent.com/citralinggau/V
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/citralinggau/VVIP/main/update/menu-backup.sh" && chmod +x /usr/bin/menu-backup
 wget -q -O /usr/bin/menu-ip "https://raw.githubusercontent.com/citralinggau/VVIP/main/update/menu-ip.sh" && chmod +x /usr/bin/menu-ip
 wget -q -O /usr/bin/menu-tor "https://raw.githubusercontent.com/citralinggau/VVIP/main/update/menu-tor.sh" && chmod +x /usr/bin/menu-tor
-wget -q -O /usr/bin/autoboot "https://raw.githubusercontent.com/citralinggau/VVIP/main/update/autoboot.sh" && chmod +x /usr/bin/autoboot
+wget -q -O /usr/bin/auto-reboot "https://raw.githubusercontent.com/citralinggau/VVIP/main/update/auto-reboot.sh" && chmod +x /usr/bin/auto-reboot
 wget -q -O /usr/bin/menu-tcp "https://raw.githubusercontent.com/citralinggau/VVIP/main/update/menu-tcp.sh" && chmod +x /usr/bin/menu-tcp
 wget -q -O /usr/bin/rebootvps "https://raw.githubusercontent.com/citralinggau/VVIP/main/corn/rebootvps.sh" && chmod +x /usr/bin/rebootvps
 wget -q -O /usr/bin/menu-dns "https://raw.githubusercontent.com/citralinggau/VVIP/main/update/menu-dns.sh" && chmod +x /usr/bin/menu-dns
@@ -25,4 +25,5 @@ wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/citralinggau/VVIP/
 wget -q -O /usr/bin/mbandwith "https://raw.githubusercontent.com/citralinggau/VVIP/main/update/menu-bandwith.sh" && chmod +x /usr/bin/mbandwith
 echo -e " [INFO] Update Successfully"
 sleep 2
+reboot
 exit
