@@ -18,7 +18,7 @@ chmod +x /usr/local/bin/reboot_otomatis
 fi
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL
 clear
-echo -e "\e[31m※\e[0m \e[33mPOWER BY RidwanVPN\e[0m \e[31m※\e[0m"
+echo -e "\e[31m※\e[0m \e[33mPOWER BY JarwoksVPN\e[0m \e[31m※\e[0m"
     echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
   echo -e " \e[1;97;101m           AUTO REBOOT VPS              \e[0m"
   echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
